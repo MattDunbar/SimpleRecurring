@@ -7,14 +7,11 @@ require "simple_recurring/version"
 Gem::Specification.new do |s|
   s.name        = "simple_recurring"
   s.version     = SimpleRecurring::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimpleRecurring."
-  s.description = "TODO: Description of SimpleRecurring."
-  s.license     = "MIT"
+  s.authors     = ["Matt Dunbar"]
+  s.email       = ["matt@buildrx.com"]
+  s.summary     = "A common way to interact with any supported credit card based recurring payments provider."
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.1.9"
