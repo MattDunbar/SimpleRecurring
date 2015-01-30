@@ -9,12 +9,11 @@ Gem::Specification.new do |s|
   s.version     = SimpleRecurring::VERSION
   s.authors     = ["Matt Dunbar"]
   s.email       = ["matt@buildrx.com"]
-  s.summary     = "A single way to interact with any supported credit card based recurring payments provider."
+  s.summary     = "A uniform and simple way to create recurring payments with supported providers."
 
   s.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.1.9"
 
-  s.add_development_dependency "sqlite3"
 end
