@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = SimpleRecurring::VERSION
   s.authors     = ["Matt Dunbar"]
   s.email       = ["matt@buildrx.com"]
-  s.summary     = "A common way to interact with any supported credit card based recurring payments provider."
+  s.summary     = "A single way to interact with any supported credit card based recurring payments provider."
 
   s.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
