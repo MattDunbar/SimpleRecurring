@@ -69,3 +69,5 @@ Adapters should be a class with their adapter name (single word, with only the f
 All adapters must extend `SimpleRecurring::ProcessorAdapters::BaseAdapter` which includes all necessary methods which have to be implemented in the adapter.
 
 `SimpleRecurring::ProcessorAdapters::BaseAdapter` can be found in this extension at `lib/simple_recurring/processor_adapters/base_adapter.rb`.
+
+Adapters should also be located in `./simple_recurring/processor_adapters/adaptername.rb` relative to an autoloader path (e.g. `app/models/simple_recurring/processor_adapters/adaptername.rb` or `lib/simple_recurring/processor_adapters/adaptername.rb` if `lib/` is in the gem's autoloader path).
