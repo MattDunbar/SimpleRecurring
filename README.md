@@ -1,4 +1,4 @@
-# SimpleRecurring
+# simple_recurring
 
 ## Overview
 A uniform and simple way to create recurring payments with supported providers.
@@ -6,7 +6,7 @@ A uniform and simple way to create recurring payments with supported providers.
 ## Installation
 Add the gem to your Gemfile.
 ```ruby
-gem 'SimpleRecurring'
+gem 'simple_recurring'
 ```
 
 Install any payment gateway adapter gems by following instructions in their README.
