@@ -1,4 +1,3 @@
-# SimpleRecurring::Promotions is a representation of all promotions
 module SimpleRecurring
   class Promotions
     # Integer trial_period - Trial period in days.
